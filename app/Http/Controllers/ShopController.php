@@ -1,0 +1,15 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
+use App\Http\Requests;
+
+class ShopController extends Controller
+{
+    //
+    function getIndex(){
+        return view('shop.index');
+    }
+}
